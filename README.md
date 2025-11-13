@@ -4,7 +4,7 @@
 </picture>
 
 [![chat](https://img.shields.io/badge/chat-telegram-blue?logo=telegram)](https://t.me/jet1ci)
-[![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](https://github.com/1Ci-Company/Jet-ES/blob/develop-es/LICENSE.md)
+[![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](https://github.com/1Ci-Company/Jet-ES/blob/develop-es/LICENSE)
 [![Last release](https://img.shields.io/github/v/release/1Ci-Company/jet-es?include_prereleases)](https://github.com/1Ci-Company/Jet-ES/releases)
 
 # 1C:Jet (Español)
@@ -84,7 +84,7 @@ Suggested workflow:
 
 ## License
 
-This project is licensed under the MIT License — see the [LICENSE](https://github.com/1Ci-Company/Jet-ES/blob/develop-es/LICENSE.md) file for details.
+This project is licensed under the MIT License — see the [LICENSE](https://github.com/1Ci-Company/Jet-ES/blob/develop-es/LICENSE) file for details.
 
 ---
 
