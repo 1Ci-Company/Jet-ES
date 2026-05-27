@@ -32,7 +32,7 @@ Procedure OnCreateAtServer(Cancel, StandardProcessing)
 	ElsIf DataProcessorsKind = Enums.AdditionalReportsAndDataProcessorsKinds.Report Then
 		AreAssignableDataProcessors = True;
 		AreReports = True;
-		Title = NStr("en = 'Reports';es_CO = 'Informees'");
+		Title = NStr("en = 'Reports';es_CO = 'Informes'");
 	ElsIf DataProcessorsKind = Enums.AdditionalReportsAndDataProcessorsKinds.PrintForm Then
 		AreAssignableDataProcessors = True;
 		Title = NStr("en = 'Additional print forms';es_CO = 'Formas impresas adicionales'");

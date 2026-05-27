@@ -69,7 +69,7 @@ EndProcedure
 //
 Procedure DefineSectionsWithReportOptions(Sections) Export
 	
-	Sections.Add(Metadata.Subsystems.Sales, NStr("en = 'Sales reports'; es_CO = 'Informees de ventas'"));
+	Sections.Add(Metadata.Subsystems.Sales, NStr("en = 'Sales reports'; es_CO = 'Informes de ventas'"));
 	Sections.Add(Metadata.Subsystems.Purchases, NStr("en = 'Purchases reports'; es_CO = 'Informes de compras'"));
 	Sections.Add(Metadata.Subsystems.Warehouses, NStr("en = 'Warehouses reports'; es_CO = 'Informes de almacenes'"));
 	Sections.Add(Metadata.Subsystems.CashManagement, NStr("en = 'Cash management reports'; es_CO = 'Informes de gestión de efectivo'"));

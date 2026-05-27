@@ -4550,7 +4550,7 @@ Procedure UpdateStructure()
 	EndIf;
 	
 	Section = OptionStructure.GetItems().Add();
-	Section.Presentation = NStr("en = 'Report';es_CO = 'Informee'");
+	Section.Presentation = NStr("en = 'Report';es_CO = 'Informe'");
 	Section.IsSection = True;
 	Section.Picture = -1;
 	Section.Type = StructureItemProperty;

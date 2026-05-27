@@ -2681,7 +2681,7 @@ Procedure OnDefineAttachableCommandsKinds(AttachableCommandsKinds) Export
 	Kind = AttachableCommandsKinds.Add();
 	Kind.Name         = "Reports";
 	Kind.SubmenuName  = "ReportsSubmenu";
-	Kind.Title   = NStr("en = 'Reports';es_CO = 'Informees'");
+	Kind.Title   = NStr("en = 'Reports';es_CO = 'Informes'");
 	Kind.Order     = 50;
 	Kind.Picture    = PictureLib.Report;
 	Kind.Representation = ButtonRepresentation.PictureAndText;

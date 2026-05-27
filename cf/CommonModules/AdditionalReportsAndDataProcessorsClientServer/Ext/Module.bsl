@@ -427,7 +427,7 @@ EndFunction
 //
 Function SelectingAndSavingDialogFilter() Export
 	
-	Filter = NStr("en = 'External reports and data processors (*.%1, *.%2)|*.%1;*.%2|External reports (*.%1)|*.%1|External data processors (*.%2)|*.%2';es_CO = 'Informees externos y procesadores de datos (*.%1,*.%2)|*.%1;*.%2|Informees externos (*.%1)|*.%1|Procesadores de datos externos (*.%2)|*.%2'");
+	Filter = NStr("en = 'External reports and data processors (*.%1, *.%2)|*.%1;*.%2|External reports (*.%1)|*.%1|External data processors (*.%2)|*.%2';es_CO = 'Informes externos y procesadores de datos (*.%1,*.%2)|*.%1;*.%2|Informes externos (*.%1)|*.%1|Procesadores de datos externos (*.%2)|*.%2'");
 	Filter = StringFunctionsClientServer.SubstituteParametersToString(Filter, "erf", "epf");
 	Return Filter;
 	
