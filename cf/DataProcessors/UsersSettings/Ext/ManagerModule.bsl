@@ -119,7 +119,7 @@ Function MetadataObjectForms1()
 	StandardFormNames.Add("Form");
 	StandardFormNames.Add("SettingsForm");
 	StandardFormNames.Add("VariantForm");
-	FillMetadataObjectForms(Metadata.Reports, "Report", NStr("en = 'Report';es_CO = 'Informe'"),
+	FillMetadataObjectForms(Metadata.Reports, "Report", NStr("en = 'Report';es_CO = 'Informee'"),
 		StandardFormNames, PictureLib.Report, FormsList);
 	
 	StandardFormNames = New ValueList;

@@ -2078,8 +2078,8 @@ Function MetadataTree(WithFields)
 	ReportsRow.Metadata           = Metadata.Reports;
 	ReportsRow.PathToObject         = "Report.*";
 	ReportsRow.RightsDetails         = RightsReportProcessingFunctions();
-	ReportsRow.Presentation        = NStr("en = 'Reports';es_CO = 'Informes'");
-	ReportsRow.ObjectPresentation = NStr("en = 'Report';es_CO = 'Informe'");
+	ReportsRow.Presentation        = NStr("en = 'Reports';es_CO = 'Informees'");
+	ReportsRow.ObjectPresentation = NStr("en = 'Report';es_CO = 'Informee'");
 	AddCommandsFields(WithFields, ReportsRow, "Attributes, TabularSections");
 	
 	// Configuration.DataProcessors

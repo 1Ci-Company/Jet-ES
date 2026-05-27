@@ -1245,7 +1245,7 @@ Function MetadataObjectCollectionProperties(ExtensionsObjects = False) Export
 	String = Result.Add();
 	String.Id   = New UUID("706cf832-0ae5-45b5-8a4a-1f251d054f3b");
 	String.Name             = "Reports";
-	String.Synonym         = NStr("en = 'Reports';es_CO = 'Informes'");
+	String.Synonym         = NStr("en = 'Reports';es_CO = 'Informees'");
 	String.SingularName     = "Report";
 	String.SingularSynonym = NStr("en = 'Report';es_CO = 'Informe'");
 	String.NoData       = True;

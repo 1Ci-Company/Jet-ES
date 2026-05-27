@@ -1268,7 +1268,7 @@ Procedure OnDefineCommandsAttachedToObject(FormSettings, Sources, AttachedReport
 			Command.Presentation = NStr("en = 'Additional reports…';es_CO = 'Informes adicionales...'");
 		Else
 			Command.Kind           = "CommandBar";
-			Command.Presentation = NStr("en = 'Reports…';es_CO = 'Informes...'");
+			Command.Presentation = NStr("en = 'Reports…';es_CO = 'Informees...'");
 		EndIf;
 		Command.Order            = 50;
 		Command.Handler         = "AdditionalReportsAndDataProcessorsClient.OpenCommandList";
