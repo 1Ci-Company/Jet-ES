@@ -839,7 +839,7 @@ EndFunction
 Procedure DefineSubsystemsAndTitle(Var_Parameters)
 	
 	TitleIsSet = Not IsBlankString(Var_Parameters.Title);
-	PanelTitle = ?(TitleIsSet, Var_Parameters.Title, NStr("en = 'Reports';es_CO = 'Informees'"));
+	PanelTitle = ?(TitleIsSet, Var_Parameters.Title, NStr("en = 'Reports';es_CO = 'Informes'"));
 	
 	If Var_Parameters.SubsystemPath = ReportsOptionsClientServer.HomePageID() Then
 		CurrentSectionFullName = Var_Parameters.SubsystemPath;
@@ -1161,7 +1161,7 @@ Procedure OutputSectionOptions(FillParameters, SectionReference)
 			Label = Items.Insert("ReportListEmpty", Type("FormDecoration"), Items.NoGroupColumn1);
 			If ValueIsFilled(SearchString) Then
 				If FillParameters.CurrentSectionOnly Then
-					Label.Title = NStr("en = 'Reports not found.';es_CO = 'Informees no encontrados.'");
+					Label.Title = NStr("en = 'Reports not found.';es_CO = 'Informes no encontrados.'");
 				Else
 					Label.Title = NStr("en = 'Reports not found in current section.';es_CO = 'Informes no encontrados en la sección actual.'");
 					Label.Height = 2;

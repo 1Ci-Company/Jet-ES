@@ -91,6 +91,14 @@ Procedure FormManagement()
 	Items.AdjustmentPercent.Visible = (PriceAdjustmentMethod = "IncByPercent" Or PriceAdjustmentMethod = "DecByPercent");
 	Items.AdjustmentAmount.Visible = (PriceAdjustmentMethod = "IncByAmount" Or PriceAdjustmentMethod = "DecByAmount");
 	
+	If PriceAdjustmentMethod = "DecByAmount" Then
+		Items.AdjustmentAmount.Title = NStr("en = 'Amount'; es_CO = 'Disminución'"); 
+	EndIf;
+	
+	If PriceAdjustmentMethod = "IncByAmount" Then
+		Items.AdjustmentAmount.Title = NStr("en = 'Amount'; es_CO = 'Incremento'"); 
+	EndIf;
+	
 EndProcedure
 
 &AtClient
@@ -164,13 +172,13 @@ EndProcedure
 Procedure ModifyProductPrices()
 	
 	If (PriceAdjustmentMethod = "IncByPercent" Or PriceAdjustmentMethod = "DecByPercent") And AdjustmentPercent = 0 Then
-		CommonClient.MessageToUser(NStr("en = 'Percent is not filled in.'; es_CO = 'No está rellenado el porcentaje.'"), ,
+		CommonClient.MessageToUser(NStr("en = 'Percent is not filled in.'; es_CO = 'El porcentaje no está definido.'"), ,
 			"AdjustmentPercent");
 		Return;
 	EndIf;
 	
 	If (PriceAdjustmentMethod = "IncByAmount" Or PriceAdjustmentMethod = "DecByAmount") And AdjustmentAmount = 0 Then
-		CommonClient.MessageToUser(NStr("en = 'Amount is not filled in.'; es_CO = 'No está rellenado el importe.'"), ,
+		CommonClient.MessageToUser(NStr("en = 'Amount is not filled in.'; es_CO = 'La cantidad no está definida'"), ,
 			"AdjustmentAmount");
 		Return;
 	EndIf;

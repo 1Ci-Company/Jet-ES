@@ -319,7 +319,7 @@ Procedure MetadataObjectTreeFill()
 	CollectionNewRow("Documents",                    NStr("en = 'Documents';es_CO = 'Documentos'"),                      PictureLib.MetadataDocuments,               False, MetadataObjects);
 	CollectionNewRow("DocumentJournals",            NStr("en = 'Document journals';es_CO = 'Registros del documento'"),             PictureLib.MetadataDocumentJournals,       False, MetadataObjects);
 	CollectionNewRow("Enums",                 NStr("en = 'Enumerations';es_CO = 'Transferencias'"),                   PictureLib.EnumerationMetadata,            False, MetadataObjects);
-	CollectionNewRow("Reports",                       NStr("en = 'Reports';es_CO = 'Informees'"),                         PictureLib.MetadataReports,                  False, MetadataObjects);
+	CollectionNewRow("Reports",                       NStr("en = 'Reports';es_CO = 'Informes'"),                         PictureLib.MetadataReports,                  False, MetadataObjects);
 	CollectionNewRow("DataProcessors",                    NStr("en = 'Data processors';es_CO = 'Procesadores de datos'"),                      PictureLib.MetadataDataProcessors,               False, MetadataObjects);
 	CollectionNewRow("ChartsOfCharacteristicTypes",      NStr("en = 'Charts of characteristic types';es_CO = 'Diagramas de los tipos de características'"),      PictureLib.MetadataChartsOfCharacteristicTypes, False, MetadataObjects);
 	CollectionNewRow("ChartsOfAccounts",                  NStr("en = 'Charts of accounts';es_CO = 'Diagramas de las cuentas'"),                   PictureLib.MetadataChartsOfAccounts,             False, MetadataObjects);
