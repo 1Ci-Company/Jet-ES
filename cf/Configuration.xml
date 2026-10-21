@@ -1126,6 +1126,7 @@
 			<CommonModule>MessageTemplatesInternalCached</CommonModule>
 			<CommonModule>MessageTemplatesOverridable</CommonModule>
 			<CommonModule>MessageTemplatesServer</CommonModule>
+			<CommonModule>NumberToWordsClientServer</CommonModule>
 			<CommonModule>ObjectAttributesLock</CommonModule>
 			<CommonModule>ObjectAttributesLockClient</CommonModule>
 			<CommonModule>ObjectAttributesLockInternal</CommonModule>
