@@ -161,7 +161,7 @@
 											</v8:item>
 											<v8:item>
 												<v8:lang>es_CO</v8:lang>
-												<v8:content>Aumentar en por ciento</v8:content>
+												<v8:content>Porcentaje de aumento</v8:content>
 											</v8:item>
 										</Presentation>
 										<Value xsi:type="xs:string">IncByPercent</Value>
@@ -178,7 +178,7 @@
 											</v8:item>
 											<v8:item>
 												<v8:lang>es_CO</v8:lang>
-												<v8:content>Disminuir en por ciento</v8:content>
+												<v8:content>Porcentaje de disminución</v8:content>
 											</v8:item>
 										</Presentation>
 										<Value xsi:type="xs:string">DecByPercent</Value>
@@ -195,7 +195,7 @@
 											</v8:item>
 											<v8:item>
 												<v8:lang>es_CO</v8:lang>
-												<v8:content>Aumentar en importe</v8:content>
+												<v8:content>Aumento al importe</v8:content>
 											</v8:item>
 										</Presentation>
 										<Value xsi:type="xs:string">IncByAmount</Value>
@@ -212,7 +212,7 @@
 											</v8:item>
 											<v8:item>
 												<v8:lang>es_CO</v8:lang>
-												<v8:content>Disminuir en importe</v8:content>
+												<v8:content>Disminución al importe</v8:content>
 											</v8:item>
 										</Presentation>
 										<Value xsi:type="xs:string">DecByAmount</Value>
@@ -393,7 +393,7 @@
 				</v8:item>
 				<v8:item>
 					<v8:lang>es_CO</v8:lang>
-					<v8:content>Importe</v8:content>
+					<v8:content>Incremento</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -413,7 +413,7 @@
 				</v8:item>
 				<v8:item>
 					<v8:lang>es_CO</v8:lang>
-					<v8:content>Por ciento</v8:content>
+					<v8:content>Porcentaje</v8:content>
 				</v8:item>
 			</Title>
 			<Type>

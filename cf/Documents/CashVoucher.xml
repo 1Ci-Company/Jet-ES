@@ -32,7 +32,7 @@
 				</v8:item>
 				<v8:item>
 					<v8:lang>es_CO</v8:lang>
-					<v8:content>Vale de efectivo</v8:content>
+					<v8:content>Pago en efectivo</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment/>
@@ -234,7 +234,7 @@
 				</v8:item>
 				<v8:item>
 					<v8:lang>es_CO</v8:lang>
-					<v8:content>Vales de efectivo</v8:content>
+					<v8:content>Pagos en efectivo</v8:content>
 				</v8:item>
 			</ListPresentation>
 			<ExtendedListPresentation/>

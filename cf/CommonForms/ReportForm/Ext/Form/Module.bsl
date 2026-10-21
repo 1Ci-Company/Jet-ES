@@ -830,7 +830,7 @@ Procedure SendByEmail(Command)
 	StatePresentation = Items.ReportSpreadsheetDocument.StatePresentation;
 	If StatePresentation.Visible = True 
 		And StatePresentation.AdditionalShowMode = AdditionalShowMode.Irrelevance Then
-		QueryText = NStr("en = 'Report not generated. Do you want to generate the report?';es_CO = 'Informee no generado. ¿Desea generar el informe?'");
+		QueryText = NStr("en = 'Report not generated. Do you want to generate the report?';es_CO = 'Informe no generado. ¿Desea generar el informe?'");
 		Handler = New NotifyDescription("GenerateBeforeEmailing", ThisObject);
 		ShowQueryBox(Handler, QueryText, QuestionDialogMode.YesNo, 60, DialogReturnCode.Yes);
 	Else
@@ -1642,7 +1642,7 @@ Function ReportGenerationResult(Val GeneratingOnOpen, Directly, AfterWarning)
 	GenerationParameters = ReportGenerationParameters(ReportName, Directly);
 	ExecutionParameters = TimeConsumingOperations.BackgroundExecutionParameters(UUID);
 	ExecutionParameters.BackgroundJobDescription = StringFunctionsClientServer.SubstituteParametersToString(
-		NStr("en = 'Running report: %1';es_CO = 'Informee en ejecución: %1'"), ReportName);
+		NStr("en = 'Running report: %1';es_CO = 'Informe en ejecución: %1'"), ReportName);
 	ExecutionParameters.RunNotInBackground1 = Directly;
 
 	Result = TimeConsumingOperations.ExecuteInBackground("ReportsOptions.GenerateReportInBackground", GenerationParameters,
